@@ -12,15 +12,15 @@
         }
 
         body {
-            background-color: #0a0e27;
+            background-color: #0a0a0a;
             color: #ffffff;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Arial', sans-serif;
             line-height: 1.6;
         }
 
         /* Header */
         header {
-            background: linear-gradient(135deg, #1a1f3a 0%, #16213e 100%);
+            background-color: #000000;
             padding: 40px 20px;
             text-align: center;
             border-bottom: 3px solid #00d4ff;
@@ -35,12 +35,12 @@
 
         header p {
             font-size: 1.1em;
-            color: #b0b0b0;
+            color: #cccccc;
         }
 
         /* Navigation */
         nav {
-            background-color: #16213e;
+            background-color: #000000;
             padding: 15px;
             text-align: center;
             border-bottom: 2px solid #00d4ff;
@@ -68,7 +68,7 @@
 
         /* Intro Section */
         .intro {
-            background: linear-gradient(135deg, #1a1f3a 0%, #0f3460 100%);
+            background-color: #1a1a1a;
             padding: 30px;
             border-radius: 10px;
             margin-bottom: 50px;
@@ -85,7 +85,7 @@
         .intro p {
             font-size: 1.1em;
             line-height: 1.8;
-            color: #d0d0d0;
+            color: #dddddd;
         }
 
         /* Game Cards Grid */
@@ -97,7 +97,7 @@
         }
 
         .game-card {
-            background: linear-gradient(135deg, #1a1f3a 0%, #16213e 100%);
+            background-color: #1a1a1a;
             border-radius: 10px;
             overflow: hidden;
             border: 2px solid #00d4ff;
@@ -108,7 +108,7 @@
         .game-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 12px 48px rgba(0, 212, 255, 0.3);
-            border-color: #ff006e;
+            border-color: #00ff88;
         }
 
         .game-card img {
@@ -128,7 +128,7 @@
         }
 
         .game-card .game-goal {
-            background-color: rgba(0, 212, 255, 0.1);
+            background-color: #0a0a0a;
             padding: 15px;
             border-radius: 5px;
             margin-bottom: 15px;
@@ -139,15 +139,20 @@
             color: #00d4ff;
         }
 
+        .game-card .game-goal p {
+            color: #dddddd;
+            margin-top: 8px;
+        }
+
         .game-card .tips {
-            background-color: rgba(255, 0, 110, 0.1);
+            background-color: #0a0a0a;
             padding: 15px;
             border-radius: 5px;
-            border-left: 3px solid #ff006e;
+            border-left: 3px solid #00d4ff;
         }
 
         .game-card .tips strong {
-            color: #ff006e;
+            color: #00d4ff;
             display: block;
             margin-bottom: 10px;
         }
@@ -158,12 +163,34 @@
 
         .game-card .tips li {
             margin-bottom: 8px;
-            color: #d0d0d0;
+            color: #dddddd;
+        }
+
+        .game-card .tips li strong {
+            color: #00d4ff;
+            display: inline;
+        }
+
+        .app-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #00d4ff;
+            color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .app-link:hover {
+            background-color: #00ff88;
+            transform: scale(1.05);
         }
 
         /* Footer */
         footer {
-            background-color: #0f1419;
+            background-color: #000000;
             text-align: center;
             padding: 30px 20px;
             border-top: 2px solid #00d4ff;
@@ -177,7 +204,7 @@
         }
 
         .authors {
-            color: #b0b0b0;
+            color: #999999;
             font-size: 0.95em;
             margin-top: 15px;
         }
@@ -201,12 +228,12 @@
 </head>
 <body>
     <header>
-        <h1>🎮 Engels Leren met Videogames</h1>
-        <p>Ontdek hoe je Engels leert terwijl je speelt</p>
+        <h1>🎮 Engels Leren met Gamen</h1>
+        <p>Speel games en leer Engels erbij!</p>
     </header>
 
     <nav>
-        <a href="#intro">Introductie</a>
+        <a href="#intro">Info</a>
         <a href="#fortnite">Fortnite</a>
         <a href="#roblox">Roblox</a>
         <a href="#minecraft">Minecraft</a>
@@ -214,12 +241,12 @@
 
     <div class="container">
         <section class="intro" id="intro">
-            <h2>Waarom Engels leren door te gamen?</h2>
+            <h2>Waarom Engels leren met games?</h2>
             <p>
-                Videogames zijn een interactieve en leuke manier om een nieuwe taal te leren! Door games in het Engels te spelen, 
-                stel je jezelf bloot aan natuurlijk taalgebruik, communicatie met andere spelers en een rijke woordenschat. 
-                In deze PWS onderzoeken we hoe drie populaire games - Fortnite, Roblox en Minecraft - je kunnen helpen 
-                je Engelse vaardigheden te verbeteren. Lees meer over praktische tips voor elke game!
+                Je speelt al graag games? Prima! Je kan Engels leren terwijl je speelt. 
+                Door games in het Engels te spelen, hoor je echte Engelse woorden en kan je ze onthouden. 
+                Bovendien chat je met andere spelers uit de hele wereld. 
+                Hier lees je hoe je met Fortnite, Roblox en Minecraft je Engels kan verbeteren!
             </p>
         </section>
 
@@ -230,20 +257,20 @@
                 <div class="game-card-content">
                     <h3>🎯 Fortnite</h3>
                     <div class="game-goal">
-                        <strong>Doel van het spel:</strong>
-                        <p>Een battle royale shooter waar 100 spelers om de overwinning strijden. Je moet jezelf verdedigen, 
-                        andere spelers verslaan en als laatste staande blijven.</p>
+                        <strong>Wat is het spel?</strong>
+                        <p>Je bent in een eiland met nog 99 andere spelers. Je verzamelt wapens en vecht totdat je de enige bent die nog staat!</p>
                     </div>
                     <div class="tips">
-                        <strong>💡 Engels Leren Tips:</strong>
+                        <strong>Hoe leer je Engels?</strong>
                         <ul>
-                            <li><strong>Instellingen op Engels:</strong> Ga naar Settings → Language → English</li>
-                            <li><strong>Communiceer met je team:</strong> Gebruik voice chat of tekst om met je squad te communiceren</li>
-                            <li><strong>Leer wapennamen:</strong> "Assault Rifle", "Shotgun", "Sniper" etc.</li>
-                            <li><strong>Volg Engelse streamers:</strong> Kijk naar professionele spelers en hun commentary</li>
-                            <li><strong>Woordenschat:</strong> "landing zone", "loot", "shield", "eliminations", "the storm"</li>
+                            <li><strong>Taal op Engels zetten:</strong> Ga naar Settings → Language → English</li>
+                            <li><strong>Chat met je team:</strong> Praat met andere spelers via microfoon of tekstberichten</li>
+                            <li><strong>Leer wapennamen:</strong> Assault Rifle, Shotgun, Sniper</li>
+                            <li><strong>Kijk naar streamers:</strong> Zie hoe professionele spelers Engels spreken</li>
+                            <li><strong>Leer deze woorden:</strong> landing zone, loot, shield, eliminate, storm</li>
                         </ul>
                     </div>
+                    <a href="https://www.epicgames.com/fortnite" target="_blank" class="app-link">Download Fortnite →</a>
                 </div>
             </div>
 
@@ -253,20 +280,20 @@
                 <div class="game-card-content">
                     <h3>🏗️ Roblox</h3>
                     <div class="game-goal">
-                        <strong>Doel van het spel:</strong>
-                        <p>Een platvormpagina waar miljoenen spellen beschikbaar zijn. Je kan alles spelen van simulators tot role-play games, 
-                        samen met andere spelers uit de hele wereld.</p>
+                        <strong>Wat is het spel?</strong>
+                        <p>Een grote game-website met duizenden verschillende spelletjes. Je kan van alles spelen: race-games, bouw-games, rol-spel games. Alles met andere spelers samen!</p>
                     </div>
                     <div class="tips">
-                        <strong>💡 Engels Leren Tips:</strong>
+                        <strong>Hoe leer je Engels?</strong>
                         <ul>
-                            <li><strong>Instellingen op Engels:</strong> Klik op je profiel → Settings → Language → English</li>
-                            <li><strong>Interageer in de chat:</strong> Roblox heeft veel multi-player games waar je veel kan chatten</li>
-                            <li><strong>Lees instructies zorgvuldig:</strong> Games hebben Engelse instructies en tutorials</li>
-                            <li><strong>Meld je aan bij clans/groepen:</strong> Veel games hebben Engelse communities die samenwerken</li>
-                            <li><strong>Woordenschat:</strong> "avatar", "customization", "currency", "game passes", "robux"</li>
+                            <li><strong>Taal op Engels zetten:</strong> Klik op je profiel → Settings → Language → English</li>
+                            <li><strong>Chat in het spel:</strong> Veel games hebben een chat waar je met anderen kan typen</li>
+                            <li><strong>Lees de spelregels:</strong> Alle spelletjes hebben instructies in het Engels</li>
+                            <li><strong>Sluit je aan bij groepen:</strong> Veel spelers praten samen in groepen</li>
+                            <li><strong>Leer deze woorden:</strong> avatar, customize, game pass, level up, inventory</li>
                         </ul>
                     </div>
+                    <a href="https://www.roblox.com" target="_blank" class="app-link">Ga naar Roblox →</a>
                 </div>
             </div>
 
@@ -276,27 +303,27 @@
                 <div class="game-card-content">
                     <h3>⛏️ Minecraft</h3>
                     <div class="game-goal">
-                        <strong>Doel van het spel:</strong>
-                        <p>Een sandbox-game waar je vrij kan bouwen, verkennen en overleven in een blokwereld. Je kan je eigen wereld creëren 
-                        en met andere spelers samenwerken op multiplayer servers.</p>
+                        <strong>Wat is het spel?</strong>
+                        <p>Je bent in een wereld van blokken. Je kan bouwen wat je wilt, graven naar schatten, en tegen monsters vechten. Je kan het alleen spelen of samen met vrienden.</p>
                     </div>
                     <div class="tips">
-                        <strong>💡 Engels Leren Tips:</strong>
+                        <strong>Hoe leer je Engels?</strong>
                         <ul>
-                            <li><strong>Instellingen op Engels:</strong> Options → Language → English (US of UK)</li>
-                            <li><strong>Leer alle blok- en itemnamen:</strong> Elke blok en item heeft een Engelse naam in je inventory</li>
-                            <li><strong>Sluit je aan bij Engelse servers:</strong> Speel op multiplayer servers en communiceer met anderen</li>
-                            <li><strong>Volg tutorials:</strong> Kijk Engelse Minecraft tutorials op YouTube om nieuwe bouwingen te leren</li>
-                            <li><strong>Woordenschat:</strong> "crafting", "mining", "mobs", "biome", "spawner", "redstone", "enchantment"</li>
+                            <li><strong>Taal op Engels zetten:</strong> Options → Language → English</li>
+                            <li><strong>Leer de bloknamen:</strong> Alle blokken hebben Engelse namen. Ontdek ze!</li>
+                            <li><strong>Speel op Engelse servers:</strong> Veel servers hebben spelers die Engels spreken</li>
+                            <li><strong>Kijk tutorials op YouTube:</strong> Leer bouwtechnieken van Engelse spelers</li>
+                            <li><strong>Leer deze woorden:</strong> crafting, mining, blocks, mobs, build, survival mode</li>
                         </ul>
                     </div>
+                    <a href="https://www.minecraft.net" target="_blank" class="app-link">Download Minecraft →</a>
                 </div>
             </div>
         </div>
     </div>
 
     <footer>
-        <p>PWS - Engels Leren door Videogames</p>
+        <p>PWS - Engels Leren door Gamen</p>
         <div class="authors">
             <p><strong>Raynaud van der Molen</strong> - 16 jaar - HAVO 5B</p>
             <p><strong>Mauro de Jong</strong> - 15 jaar - HAVO 5A</p>
